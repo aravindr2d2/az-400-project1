@@ -1,0 +1,50 @@
+cd Documents
+cd azureprojects
+ll
+myWebApp
+cd myWebApp
+git --list 
+git branch --list 
+git branch feature-devops-home-page
+git checkout feature-devops-home-page
+git branch --list
+git checkout master
+git branch --list
+git branch feature-devops-home-page
+git branch --list 
+git checkout feature-devops-home-page
+git branch --list 
+cd ~Views
+cd ~\Views\Home\Index.cshtml
+cat ~\Views\Home\Index.cshtml
+cd Views
+cd Home
+Index.cshtml
+cd .
+cd ..
+dotnet build 
+dotnet run 
+git status 
+git add .
+git status 
+git commit -m "updated context"
+git status 
+git checkout main 
+git checkout master 
+git merge feature-devops-home-page 
+git branch --list 
+git branch --delete feature-devops-home-page 
+git branch --list 
+git log --v
+git log --V
+git log -v
+git log -p
+git reset --hard 5d2441f0be4f1e4ca1f8f83b56dee31251367adc
+git reset --hard 7f9fa5c8a1df9f3ee386c391711851016550c596
+git log -p
+git log -v
+git reset --hard dbc7cdcd3afd993208c621baf28f2f0027a1027d
+git log -v
+history 
+doskey /history 
+doskey /history > hist.txt
